@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="大马预约">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="theme-color" content="#1989fa">
+  <meta name="description" content="大马冰球课程预约系统">
+
+  <!-- 微信分享优化 -->
+  <meta itemprop="name" content="大马课程预约">
+  <meta itemprop="description" content="大马冰球课程预约系统 - 以冰锻魂 双十必达">
+
+  <title>大马课程预约</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="apple-touch-icon" href="/icon-192x192.png">
+  <link rel="manifest" href="/manifest.json">
+
+  <!-- 微信浏览器优化 -->
+  <script>
+    // 禁用微信下拉刷新（橡皮筋效果）
+    document.addEventListener('touchmove', function(e) {
+      if (e.target.closest('.scroll-container, .van-list, .van-pull-refresh')) {
+        return;
+      }
+      if (document.scrollingElement.scrollTop === 0) {
+        e.preventDefault();
+      }
+    }, { passive: false });
+
+    // 处理iOS微信浏览器底部导航栏问题
+    if (/iPhone|iPad|iPod/.test(navigator.userAgent)) {
+      document.documentElement.style.setProperty('--safe-area-bottom', 'env(safe-area-inset-bottom)');
+    }
+  </script>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+import{E as o}from"./index-BJim6L_b.js";const e=t=>o.get("/timeslots",{params:t}),n=t=>o.post("/bookings",t),r=t=>o.delete(`/bookings/${t}`),g=t=>o.get("/bookings/my",{params:t}),a=()=>o.get("/bookings/monthly-stats");export{g as a,n as b,r as c,a as d,e as g};

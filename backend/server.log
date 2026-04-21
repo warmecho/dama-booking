@@ -1,0 +1,813 @@
+数据库初始化完成
+服务器运行在 http://localhost:3000
+教练端预约路由: [
+  'GET /api/coach/bookings',
+  'POST /api/coach/bookings/:id/confirm',
+  'POST /api/coach/bookings/batch-confirm',
+  'POST /api/coach/bookings/batch-cancel-confirm',
+  'PUT /api/coach/bookings/:id/time',
+  'PUT /api/coach/bookings/:id',
+  'DELETE /api/coach/bookings/:id'
+]
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 41
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'dama',
+  userPhone: '18600260200'
+}
+[DEBUG Backend] returning timeslots count: 41
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 41
+[DEBUG] week 日期范围: 2026-04-20 到 2026-04-26
+[DEBUG] week 日期范围: 2026-04-20 到 2026-04-26
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 41
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 12
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 12
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 12
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-21',
+  month: undefined,
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-22',
+  month: undefined,
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-25',
+  month: undefined,
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+=== 创建预约请求 ===
+Parent: 18611242159
+Location: 万域
+Slots: [
+  {
+    "id": 55,
+    "date": "2026-04-25",
+    "start_time": "12:10",
+    "end_time": "13:10"
+  }
+]
+处理时段: 55 2026-04-25 12:10 13:10
+预约创建成功: 55
+结果: { success: 1, failed: 0 }
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 12
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-25',
+  month: undefined,
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-26',
+  month: undefined,
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 41
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-21',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-22',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 5
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-23',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-24',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 5
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-21',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-21',
+  month: undefined,
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 12
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-21',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 41
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-22',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 5
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-23',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-24',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 5
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-21',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-22',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 5
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-23',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-24',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 5
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-25',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 4
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-26',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 4
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-26',
+  month: undefined,
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 12
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-29',
+  month: undefined,
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-30',
+  month: undefined,
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 0
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-28',
+  month: undefined,
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-05',
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 4
+[DEBUG Backend] timeslots query: {
+  date: '2026-05-02',
+  month: undefined,
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-05-05',
+  month: undefined,
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 0
+[DEBUG Backend] timeslots query: {
+  date: '2026-05-13',
+  month: undefined,
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 0
+[DEBUG Backend] timeslots query: {
+  date: '2026-05-14',
+  month: undefined,
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 0
+[DEBUG Backend] timeslots query: {
+  date: '2026-05-21',
+  month: undefined,
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 0
+[DEBUG Backend] timeslots query: {
+  date: '2026-05-21',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 0
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-05',
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 13
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 41
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-03',
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 0
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-02',
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 0
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-03',
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 0
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 41
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-22',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 5
+[DEBUG] week 日期范围: 2026-04-20 到 2026-04-26
+[DEBUG] week 日期范围: 2026-04-20 到 2026-04-26
+[DEBUG] week 日期范围: 2026-04-20 到 2026-04-26
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 41
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 41
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 12
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-21',
+  month: undefined,
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 12
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 12
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-22',
+  month: undefined,
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-21',
+  month: undefined,
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-22',
+  month: undefined,
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-23',
+  month: undefined,
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 0
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-25',
+  month: undefined,
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-25',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 4
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 41
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-21',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-23',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-30',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+=== 创建预约请求 ===
+Parent: 18611242159
+Location: 地球村
+Slots: [
+  {
+    "id": 70,
+    "date": "2026-04-30",
+    "start_time": "18:00",
+    "end_time": "19:30"
+  },
+  {
+    "id": 69,
+    "date": "2026-04-30",
+    "start_time": "15:30",
+    "end_time": "17:45"
+  }
+]
+处理时段: 70 2026-04-30 18:00 19:30
+预约创建成功: 70
+处理时段: 69 2026-04-30 15:30 17:45
+预约创建成功: 69
+结果: { success: 2, failed: 0 }
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-30',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 41
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 41
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-22',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 5
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-23',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-21',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 41
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-21',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-21',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 41
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-21',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-22',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 5
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-21',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 41
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-21',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-22',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 5
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-23',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-24',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 5
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-25',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 4
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-21',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-22',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 5
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-23',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-24',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 5
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-30',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-21',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-21',
+  month: undefined,
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'jia',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 12
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-21',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 41
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-21',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 41
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-21',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-30',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+取消预约请求: { id: '25', parentPhone: '18611242159' }
+查询到的预约: {
+  id: 25,
+  parent_phone: '18611242159',
+  timeslot_plan_id: 69,
+  location: '地球村',
+  status: 'pending',
+  created_at: '2026-04-21 03:07:29',
+  start_time: '15:30',
+  end_time: null,
+  type: null,
+  date: '2026-04-30'
+}
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-30',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 41
+取消预约请求: { id: '24', parentPhone: '18611242159' }
+查询到的预约: {
+  id: 24,
+  parent_phone: '18611242159',
+  timeslot_plan_id: 70,
+  location: '地球村',
+  status: 'pending',
+  created_at: '2026-04-21 03:07:29',
+  start_time: '18:00',
+  end_time: null,
+  type: null,
+  date: '2026-04-30'
+}
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-30',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 41
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-21',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
