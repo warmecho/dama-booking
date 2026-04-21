@@ -811,3 +811,24 @@ Slots: [
   userPhone: '18611242159'
 }
 [DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-21',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2
+[DEBUG Backend] timeslots query: {
+  date: undefined,
+  month: '2026-04',
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 41
+[DEBUG Backend] timeslots query: {
+  date: '2026-04-21',
+  month: undefined,
+  coach: 'dama',
+  userPhone: '18611242159'
+}
+[DEBUG Backend] returning timeslots count: 2

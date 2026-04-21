@@ -11,7 +11,7 @@ import cron from 'node-cron'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const app = express()
-const PORT = 3000
+const PORT = 10000
 const JWT_SECRET = 'dama-booking-secret-key'
 
 // 中间件
